@@ -1,0 +1,8 @@
+#   /etc/logrotate.d/while
+
+~/log.txt {
+ missingok
+ daily
+ copytruncate
+ rotate 2
+          }
