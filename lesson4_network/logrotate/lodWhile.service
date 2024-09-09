@@ -1,0 +1,9 @@
+#  /etc/systemd/system/lodWhile.service
+[Unit]
+Description=This is for logging and rotate
+After=network.target
+
+[Service]
+ExecStart=/home/ms-ask-vm/lesson5Network/whileLogs
+[Install]
+WantedBy=multi-user.target
